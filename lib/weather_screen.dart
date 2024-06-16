@@ -37,6 +37,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
       setState(() {
         temp = data['list'][0]['main']['temp'];
       });
+      print("temp");
     } catch (e) {
       throw e.toString();
     }
